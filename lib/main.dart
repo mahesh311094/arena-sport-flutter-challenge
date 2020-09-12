@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sport_app/screens/home_page.dart';
+
+import 'component/bottom_navigation.dart';
 
 void main() => runApp(MyApp());
 
@@ -7,8 +8,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Arena',
-      home: HomePage(),
+      theme: ThemeData.light().copyWith(
+        scaffoldBackgroundColor: Colors.grey[200],
+        primaryColorDark: Colors.white,
+        primaryColor: Colors.white,
+        accentColor: Colors.lightBlueAccent,
+      ),
+      home: BottomNavigation(),
     );
   }
 }
