@@ -22,7 +22,6 @@ class Previous extends StatelessWidget {
           GridView.count(
             crossAxisCount: 2,
             crossAxisSpacing: 18,
-            mainAxisSpacing: 4,
             shrinkWrap: true,
             childAspectRatio: 6,
             children: [
