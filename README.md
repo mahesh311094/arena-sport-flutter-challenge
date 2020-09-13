@@ -1,3 +1,8 @@
+### Home page and Stats page UI part done
+Back-end part is remaining  because of late joining and due to less time
+But all ui is pixel perfect.
+Any quetion or queries please contact me on **mahesh311094@gmail.com**
+
 # Arena Sport 
 ![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)  
 Arena Sport open-source Flutter challenge.  
