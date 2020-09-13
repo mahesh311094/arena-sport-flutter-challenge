@@ -19,54 +19,23 @@ class Previous extends StatelessWidget {
             style: kCardSubTitleStyle,
           ),
           SizedBox(height: 15),
-          Row(
+          GridView.count(
+            crossAxisCount: 2,
+            crossAxisSpacing: 18,
+            mainAxisSpacing: 4,
+            shrinkWrap: true,
+            childAspectRatio: 6,
             children: [
-              Expanded(
-                child: ItemPrevious(title: 'G', color: Colors.blue),
-              ),
-              Expanded(
-                child: ItemPrevious(title: 'G', color: Colors.blue),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              Expanded(
-                child: ItemPrevious(title: 'E', color: Colors.grey),
-              ),
-              Expanded(
-                child: ItemPrevious(title: 'E', color: Colors.grey),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              Expanded(
-                child: ItemPrevious(title: 'P', color: Colors.black),
-              ),
-              Expanded(
-                child: ItemPrevious(title: 'P', color: Colors.black),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              Expanded(
-                child: ItemPrevious(title: 'G', color: Colors.blue),
-              ),
-              Expanded(
-                child: ItemPrevious(title: 'G', color: Colors.blue),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              Expanded(
-                child: ItemPrevious(title: 'E', color: Colors.grey),
-              ),
-              Expanded(
-                child: ItemPrevious(title: 'E', color: Colors.grey),
-              ),
+              ItemPrevious(title: 'G', color: Colors.blue),
+              ItemPrevious(title: 'G', color: Colors.blue),
+              ItemPrevious(title: 'E', color: Colors.grey),
+              ItemPrevious(title: 'E', color: Colors.grey),
+              ItemPrevious(title: 'P', color: Colors.black),
+              ItemPrevious(title: 'P', color: Colors.black),
+              ItemPrevious(title: 'G', color: Colors.blue),
+              ItemPrevious(title: 'G', color: Colors.blue),
+              ItemPrevious(title: 'E', color: Colors.grey),
+              ItemPrevious(title: 'E', color: Colors.grey),
             ],
           ),
           Divider(
